@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "hotlayer",
+    "name": "Hot Layer",
+    "description": "Keybinds for toggling player model layers",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      ""
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
