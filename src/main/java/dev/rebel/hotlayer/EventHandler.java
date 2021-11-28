@@ -54,7 +54,7 @@ public class EventHandler {
       Minecraft.getMinecraft().gameSettings.setModelPartEnabled(EnumPlayerModelParts.RIGHT_PANTS_LEG, enableAll);
       Minecraft.getMinecraft().gameSettings.setModelPartEnabled(EnumPlayerModelParts.RIGHT_SLEEVE, enableAll);
 
-      playSound(enableAll ? 1F : 0.6667F);
+      playSound(enableAll ? 2F : 0.5F);
       return;
     }
 
@@ -67,7 +67,7 @@ public class EventHandler {
         Minecraft.getMinecraft().gameSettings.switchModelPartEnabled(part);
 
         boolean isEnabled = Minecraft.getMinecraft().gameSettings.getModelParts().contains(part);
-        playSound(isEnabled ? 2F : 1.5F);
+        playSound(isEnabled ? 2F : 0.5F);
       }
     }
   }
